@@ -1,0 +1,195 @@
+/*------------------------------------*\
+全部頁面共用layout
+\*------------------------------------*/
+
+
+.wrap {
+  background: $color-bg url(../images/1920x990.jpg) center top no-repeat;
+  position: absolute;
+  height: $percent;
+  width: $percent;
+  @include background-size(cover);
+  &.b1 {
+    background-image: url(../images/bg1.jpg);
+  }
+  &.b2 {
+    background-image: url(../images/bg2.jpg);
+  }
+  &.b3 {
+    background-image: url(../images/bg3.jpg);
+  }&.b4 {
+    background-image: url(../images/bg4.jpg);
+  }
+}
+
+/**
+*header區塊內容
+**/
+header {
+  width: $percent;
+  background-color: $color-text;
+  background-color: rgba($color-text, 0.75);
+  position: fixed;
+  z-index: 99;
+}
+
+//主選單
+.nav {
+  margin: $m-center;
+  max-width: $w;
+  position: relative;
+}
+.navicon {
+  cursor: pointer;
+  float: right;
+  padding: 12px 10px;
+  img {
+    height: 20px;
+    width: 20px;
+  }
+  @include breakpoint(pad) {
+    display: none;
+  }
+}
+.logo {
+  text-align: center;
+  @include breakpoint(pad) {
+    text-align: left ;
+  }
+}
+.icon-logo {
+  @include hide-text;
+  @include background-size(cover);
+  @include inline-block;
+  background-image: url(../images/logo2x.png);
+  margin: 4px 0 4px 30px;
+  height: 40px;
+  width: 130px;
+  @include breakpoint(pad) {
+    @include bg('logo.png');
+    margin-left: 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+}
+.topnav {
+  display: none;
+  &.show {
+    display: block;
+  }
+  li {
+    border-top: 1px solid $color-text;
+    line-height: 3em;
+    text-align: center;
+    @include transition(all,.3s);
+    &:hover {
+      background-color: $color-text;
+    }
+  }
+  a {
+    @include inline-block;
+  }
+  img {
+    height: 30px;
+    width: 30px;
+  }
+  @include breakpoint(pad) {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    li {
+      @include inline-block;
+      border: none;
+      width: 120px;
+      &:hover,&.on {
+        letter-spacing: 5px;
+        background-color: transparent;
+        text-shadow: 0 0 5px #fff,0 0 15px #fff,0 0 15px #fff;
+      }
+      &:last-child {
+        width: auto;
+      }
+    }
+    img {
+      height: 25px;
+      width: 25px;
+    }
+  }
+}
+
+
+/**
+*contents區塊內容
+*各單元內容顯示區
+**/
+.content {
+  position: relative;
+  height: $percent;
+  width: $percent;
+  @include clearfix;
+  &.page {
+    height: auto;
+    margin: $m-center;
+    max-width: $w;
+    min-height: $percent;
+    padding: 80px 10px 50px 10px;
+    @include breakpoint(pad) {
+      padding-top: 150px;
+    }
+  }
+}
+
+
+
+/**
+*footer區塊內容
+**/
+footer {
+  background-color: $color-main;
+  color: darken($color-text,40%);
+  font-size: .5em;
+  line-height: 1.5em;
+  padding: 10px;
+
+}
+.copyrigth {
+  max-width: $w;
+  margin: $m-center;
+  position: relative;
+}
+.text-c {
+  display: none;
+  margin-bottom: 0;
+  @include breakpoint(pad) {
+    display: block;
+  }
+}
+.company {
+  text-align: left;
+  overflow: hidden;
+  li {
+    @include inline-block;
+    margin-right: 15px;
+  }
+}
+.grade {
+  line-height: 1.3em;
+  position: absolute;
+  top: 2px;
+  right: 0px;
+  ul {
+    display: none;
+  }
+  @include breakpoint(pad) {
+    top: 10px;
+    ul{
+      display: block;
+      float: left;
+    }
+    .icon-12 {
+      float: right;
+      margin-left: 10px;
+    }
+  }
+}

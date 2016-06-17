@@ -1,0 +1,318 @@
+/*------------------------------------*\
+內容頁
+\*------------------------------------*/
+
+
+.tit {
+  font-size: 2em;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  letter-spacing: .3em;
+  text-align: center;
+  @include text-shadow(#00fff6 0px 0px 3px,#00fff6 0px 0px 8px,#00fff6 0px 0px 10px);
+}
+/* Gradient transparent - color - transparent */
+
+hr.gradient {
+  @include box-shadow(rgba(0, 255, 246, 0.5) 0px 1px 3px);
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
+  margin-top: 10px;
+  margin-bottom: 50px;
+  @include breakpoint(pad) {
+    margin-bottom: 80px;
+  }
+}
+p {
+  color: darken($color-text,10%);
+  margin-bottom: 20px;
+  @include text-shadow($color-bg 0px 1px 3px);
+}
+
+/**
+*world內容頁
+**/
+.text {
+  color: darken($color-text,10%);
+  max-width: $w-s;
+  margin: $m-center;
+  text-align: center;
+  @include breakpoint(mobile) {
+    text-align: left;
+  }
+}
+//打字效果顯示區塊
+#typed {
+  @include text-shadow($color-bg 0px 1px 3px);
+}
+//打字由標的動態
+.typed-cursor{
+  opacity: 1;
+  font-weight: 100;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite;
+}
+@keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-ms-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes blink{
+  0% { opacity:1; }
+  50% { opacity:0; }
+  100% { opacity:1; }
+}
+/**
+*movie內容頁
+**/
+/*ul*/.movie-pic {
+  max-width: 1024px;
+  margin: $m-center;
+  text-align: center;
+  li {
+    //    border: 1px solid $color-line;
+    margin-top: 20px;
+    text-align: center;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .tit-movie {
+    background-color: $color-main;
+    color: $color-text;
+    display: block;
+    font-size: .9em;
+    height: 35px;
+    text-align: left;
+    padding: 2px 5px 2px 20px;
+    overflow: hidden;
+//    white-space: nowrap;
+    &:before {
+      content: "";
+      position: absolute;
+      bottom: 12px;
+      left: 5px;
+//      width: 5px;
+//      height: 0;
+      border-width: 5px;
+      border-style:solid;
+      border-color:transparent transparent transparent $color-text;
+      z-index: 0;
+    }
+  }
+  a {
+    @include inline-block;
+    border: 1px solid $color-line;
+    position: relative;
+    span {
+      background-color: rgba($color-bg,.7);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: $percent;
+      height: $percent;
+      z-index: 1;
+      @include opacity(0);
+      @include transition(all,.5s);
+      &:before {
+        content: "";
+        height: $percent;
+        @include inline-block;
+        vertical-align: middle;
+      }
+      .playicon {
+        width:0px;
+        height:0px;
+        border-width: 7px;
+        border-style:solid;
+        border-color:transparent transparent transparent $color-text;
+        margin-left: 7px;
+        @include inline-block;
+        vertical-align: middle;
+      }
+    }
+    &:hover span {
+      @include opacity(1);
+    }
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  @include breakpoint(mobile){
+    text-align: left;
+    li {
+      @include inline-block;
+      width: $percent/2-1.5%;
+      margin-right: 1.5%;
+      &:first-child {
+        margin-top: 20px;
+      }
+      &:nth-child(even){
+        margin-right: 0;
+      }
+    }
+  }
+  @include breakpoint(pad) {
+    //    text-align: center;
+    li {
+      @include inline-block;
+      width: $percent/3-1.2%;
+      margin-right: 1%;
+      margin-top: 30px;
+      &:first-child {
+        margin-top: 30px;
+      }
+      &:nth-child(even){
+        margin-right: 1%;
+      }
+      &:nth-child(3n){
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+/**
+*introduce內容頁
+**/
+.tab {
+  max-width: 1024px;
+  margin: $m-center;
+}
+.tabs {
+  margin-top: 30px;
+  width: 100%;
+  text-align: left;
+  a {
+    border: 1px solid $color-line;
+    color: $color-line;
+    line-height: 2.5em;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    padding: 0 20px;
+    @include border-radius(5px);
+    @include inline-block;
+    @include transition (all ,0.3s ,ease-in-out);
+    &.current, &:hover {
+      color: $color-main;
+      background-color: $color-text;
+    }
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+/*.js-tabs-item用預設css顯頁第一個tab*/
+.js-tabs-item {
+  display: none;
+  &:first-child {
+    display: block;
+  }
+}
+.tab-content {
+  margin-top: 30px;
+}
+.tabs-item {
+  h3 {
+    border-bottom: 1px solid $color-line;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    @include text-shadow($color-bg 0px 1px 3px);
+  }
+  >img {
+    max-width: $percent;
+    height: auto;
+    margin-top: 10px;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  @include breakpoint (mobile) {
+    >img.w2 {
+      max-width: $percent/2-1%;
+      margin-right: 1%;
+      &:last-child {
+        margin-right: 0;
+      }
+      @include inline-block;
+    }
+  }
+}
+
+/**
+*character內容頁
+**/
+.character__text {
+  width: $percent;
+  @include breakpoint (pad) {
+    width: $percent*0.45;
+    float: left;
+  }
+}
+.head-pic {
+  margin-bottom: 10px;
+  text-align: left;
+  a {
+    border: 1px solid $color-line;
+    margin-bottom: 5px;
+    @include inline-block;
+    &.current {
+      border: 1px solid #008aff;
+    }
+  }
+  @include breakpoint(mobile){
+    text-align: center;
+  }
+  @include breakpoint(pad){
+    text-align: left;
+  }
+}
+@for $i from 1 through 19 {
+  .p#{$i} {
+    @extend .head-head#{$i};
+  &.current {
+    @extend .head-head#{$i}:hover;
+}
+}
+}
+.role-text {
+  h3 {
+    font-size: 2em;
+    margin-bottom: 1em;
+  }
+}
+.character__pic {
+  width: $percent;
+  @include breakpoint (pad) {
+    width: $percent*0.55;
+    float: right;
+    overflow: hidden;
+  }
+}
+.role-pic {
+  margin-bottom: 10px;
+  img {
+    margin: $m-center;
+    max-width: 100%;
+    height: auto;
+  }
+}

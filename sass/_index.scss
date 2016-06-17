@@ -1,0 +1,73 @@
+/*------------------------------------*\
+首頁
+\*------------------------------------*/
+
+/*遊戲下載按扭*/
+.download {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: $percent;
+  margin-bottom: 15px;
+  li {
+    @include border-radius(10px); 
+    @include inline-block;
+    width: $percent/3-3%;
+    background-color: $color-bg;
+    text-align: center;
+  }
+  a {
+    @include inline-block;
+  }
+  img {
+    width: $percent;
+  }
+  @include breakpoint(mobile) {
+    margin-bottom: 0;
+    text-align: left;
+    @include bg('iconbg.png');
+    li {
+      width: 120px;
+      margin-top: 18px;
+      margin-left: 8px;
+    }
+  }
+}
+.ad {
+  background-color: $color-text;
+  //  margin-top: 100%;
+  padding: 10px;
+  img {
+    height: auto;
+    max-width: 100%;
+  }
+  ;
+  @include breakpoint(mobile) {
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    padding: 5px;
+    max-width: 250px;
+    z-index: 100;
+  }
+  @include breakpoint(pad) {
+    max-width: 300px;
+  }
+}
+.ad-close {
+  background-color: $color-text;
+//  background-color: rgba($color-text,.6);
+  left: -15px;
+  top: 0;
+  height: 20px;
+  line-height: 20px;
+  position: absolute;
+  padding-left: 5px;
+  width: 20px;
+  &:before {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 1em;
+    content: 'X';
+  }
+}

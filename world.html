@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <title>音速少女隊==Photon Angels==</title>
+    <link href='css/screen.css' media='screen' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script type="text/javascript" src='http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.7.1/modernizr.dev.min.js'></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script>
+      $(function(){
+        $("#typed").typed({
+//           strings: ["Typed.js is a <strong>jQuery</strong> plugin.", "It <em>types</em> out sentences.", "And then deletes them.", "Try it out!"],
+//          strings: ["First ^1000 sentence.", "Second sentence."],
+          stringsElement: $('#typed-strings'),
+          typeSpeed: 40,
+          backDelay: 0,
+          loop: false,
+          contentType: 'html', // or text
+          // defaults to false for infinite loop
+          loopCount: false,
+          callback: function(){ foo(); },
+          resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+          $("#typed").typed('reset');
+        });
+
+      });
+    </script>
+    <script type="text/javascript" src="js/script.js"></script>
+    
+  </head>
+  <body>
+    <article class="wrap b1">
+      <header>
+        <nav class="nav">
+          <div class="navicon"><img src="images/svg/bars.svg" alt="" ></div>
+          <div class="logo"><a class="icon-logo" href="index.html">音速少女隊</a></div>
+          <ul class="topnav">
+            <li class="on"><a href="world.html" >世界觀</a></li>
+            <li><a href="character.html">角色介紹</a></li>
+            <li><a href="introduce.html">遊戲特色</a></li>
+            <li><a href="movie.html">遊戲影片</a></li>
+            <li><a href="https://www.facebook.com/PhotonAngels/?fref=ts" target="_blank"><img src="images//svg/social.svg" alt="FB"></a></li>
+          </ul>
+        </nav>
+      </header>
+      <article class="content page">
+        <h2 class="tit">World</h2>
+        <hr class="gradient">
+        <section class="text">
+          <div id="typed-strings">
+            <p>在不遠的將來，突然出現的外星侵略者對人類世界進行了毀滅性的打擊。具有諷刺意味的是，這些攻擊都是由人類自己的兵器造成的。侵略者是有智慧的精神生命體，他们可以操控着人類的兵器隨心所欲的進行各種破壞。他們的目標不僅僅是人類，還包括整個地球。<br> ^300 <br>萬念俱灰之際，希望之光悄然降臨。這些光生存的世界也被同樣的侵略者毀掉了。這些光就像侵略者的另一面，也是有智慧的精神生命體，也擁有將生物同無機物融合的能力，只是沒有侵略性。人類得知後，將被選中少女們同戰鬥機進行融合，在延續這些光的生命的同時，也希望她們能夠成為救世使者。<br> ^300 <br>掌握了這項新技術的各國開始組建自己的新式軍隊，抵禦侵略者。但是各自為戰的狀況始終無法有效的對抗侵略。這種形勢下，各國挑選精英少女們組成了聯合國軍，共同殲滅侵略者。<br>她們就是<b style="font-size: 1.5em;">「^250音^250速^250少^250女^250隊^250」</b></p>
+          </div>
+
+          <span id="typed" ></span>
+        </section>
+      </article>
+      <footer>
+        <div class="copyrigth">
+          <ul class="company">
+            <li class="icon-awecent"></li>
+            <li class="icon-uzone"></li>
+            <li class="icon-wolf"></li>
+          </ul>
+          <div class="grade">
+            <ul>
+              <li>本遊戲部份內容涉及打鬥攻擊等</li>
+              <li>請注意遊玩時間避免沉迷於遊戲</li>
+              <li>本遊戲部份內容須另行支付費用</li>
+            </ul>
+            <div class="icon-12"></div>
+          </div>
+          <span class="text-c">©2016 Licensed to AWECENT INTERNATIONAL PTE. LTD.</span>
+        </div>
+      </footer>
+    </article>
+  </body>
+</html>
