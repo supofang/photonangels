@@ -638,7 +638,8 @@ header {
         *zoom: 1;
         *display: inline;
         border: none;
-        width: 120px; }
+        width: 120px;
+        text-shadow: 0 0 5px white; }
         .topnav li:hover, .topnav li.on {
           letter-spacing: 5px;
           background-color: transparent;

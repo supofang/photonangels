@@ -102,6 +102,8 @@ header {
       @include inline-block;
       border: none;
       width: 120px;
+      text-shadow: 0 0 5px white;
+      // font-size: 25px;
       &:hover,&.on {
         letter-spacing: 5px;
         background-color: transparent;
