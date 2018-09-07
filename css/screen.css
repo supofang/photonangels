@@ -95,12 +95,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 88px;
   width: 58px; }
 
-@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .icon-all-retina-sprites, .icon-12, .icon-awecent, .icon-uzone, .icon-wolf {
     background-image: url('../images/icon2x-sdcd3e13828.png');
-    -moz-background-size: 58px auto;
-    -o-background-size: 58px auto;
-    -webkit-background-size: 58px auto;
     background-size: 58px auto; }
 
   .icon-12 {
@@ -388,12 +385,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   .head2x-head9:hover, .head2x-head9.head9-hover {
     background-position: 0 -3700px; }
 
-@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
   .head-all-retina-sprites, .head-head1, .p1, .head-head10, .p10, .head-head10_hover, .head-head11, .p11, .head-head11_hover, .head-head12, .p12, .head-head12_hover, .head-head13, .p13, .head-head13_hover, .head-head14, .p14, .head-head14_hover, .head-head15, .p15, .head-head15_hover, .head-head16, .p16, .head-head16_hover, .head-head17, .p17, .head-head17_hover, .head-head18, .p18, .head-head18_hover, .head-head19, .p19, .head-head19_hover, .head-head1_hover, .head-head2, .p2, .head-head2_hover, .head-head3, .p3, .head-head3_hover, .head-head4, .p4, .head-head4_hover, .head-head5, .p5, .head-head5_hover, .head-head6, .p6, .head-head6_hover, .head-head7, .p7, .head-head7_hover, .head-head8, .p8, .head-head8_hover, .head-head9, .p9, .head-head9_hover {
     background-image: url('../images/character/head2x-s8dfdc1f77e.png');
-    -moz-background-size: 50px auto;
-    -o-background-size: 50px auto;
-    -webkit-background-size: 50px auto;
     background-size: 50px auto; }
 
   .head-head1, .p1 {
@@ -513,7 +507,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 基本設定
 \*------------------------------------*/
 * {
-  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
@@ -541,13 +534,10 @@ img {
 全部頁面共用layout
 \*------------------------------------*/
 .wrap {
-  background: #000 url(../images/1920x990.jpg) center top no-repeat;
+  background: #000 url(../images/bg0.jpg) center top no-repeat;
   position: absolute;
   height: 100%;
   width: 100%;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
   background-size: cover; }
   .wrap.b1 {
     background-image: url(../images/bg1.jpg); }
@@ -595,9 +585,6 @@ header {
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  -webkit-background-size: cover;
   background-size: cover;
   display: inline-block;
   vertical-align: middle;
@@ -625,8 +612,6 @@ header {
     border-top: 1px solid #ffffff;
     line-height: 3em;
     text-align: center;
-    -moz-transition: all, 0.3s;
-    -o-transition: all, 0.3s;
     -webkit-transition: all, 0.3s;
     transition: all, 0.3s; }
     .topnav li:hover {
@@ -746,8 +731,6 @@ footer {
   width: 100%;
   margin-bottom: 15px; }
   .download li {
-    -moz-border-radius: 10px;
-    -webkit-border-radius: 10px;
     border-radius: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -821,11 +804,11 @@ footer {
 
 /* Gradient transparent - color - transparent */
 hr.gradient {
-  -moz-box-shadow: rgba(0, 255, 246, 0.5) 0px 1px 3px;
   -webkit-box-shadow: rgba(0, 255, 246, 0.5) 0px 1px 3px;
   box-shadow: rgba(0, 255, 246, 0.5) 0px 1px 3px;
   border: 0;
   height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0.75)), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
   margin-top: 10px;
   margin-bottom: 50px; }
@@ -857,9 +840,6 @@ p {
   opacity: 1;
   font-weight: 100;
   -webkit-animation: blink 0.7s infinite;
-  -moz-animation: blink 0.7s infinite;
-  -ms-animation: blink 0.7s infinite;
-  -o-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite; }
 
 @keyframes blink {
@@ -870,27 +850,6 @@ p {
   100% {
     opacity: 1; } }
 @-webkit-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-moz-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-ms-keyframes blink {
-  0% {
-    opacity: 1; }
-  50% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@-o-keyframes blink {
   0% {
     opacity: 1; }
   50% {
@@ -946,8 +905,6 @@ p {
       z-index: 1;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
       opacity: 0;
-      -moz-transition: all, 0.5s;
-      -o-transition: all, 0.5s;
       -webkit-transition: all, 0.5s;
       transition: all, 0.5s; }
       .movie-pic a span:before {
@@ -1028,16 +985,12 @@ p {
     margin-right: 5px;
     margin-bottom: 10px;
     padding: 0 20px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline;
-    -moz-transition: all, 0.3s, ease-in-out;
-    -o-transition: all, 0.3s, ease-in-out;
     -webkit-transition: all, 0.3s, ease-in-out;
     transition: all, 0.3s, ease-in-out; }
     .tabs a.current, .tabs a:hover {
@@ -1116,7 +1069,7 @@ p {
   width: 100%; }
   @media only screen and (min-width: 768px) {
     .character__pic {
-      width: 55.0%;
+      width: 55%;
       float: right;
       overflow: hidden; } }
 
@@ -1161,7 +1114,6 @@ p {
 
 .fancybox-opened .fancybox-skin {
   -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
 
 .fancybox-outer, .fancybox-inner {
@@ -1320,8 +1272,6 @@ p {
   background: transparent;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgba(0, 0, 0, 0.8);
-  -webkit-border-radius: 15px;
-  -moz-border-radius: 15px;
   border-radius: 15px;
   text-shadow: 0 1px 2px #222;
   color: #FFF;
