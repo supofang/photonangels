@@ -151,7 +151,7 @@ footer {
   background-color: $color-main;
   color: darken($color-text,40%);
   font-size: .5em;
-  line-height: 1.5em;
+  line-height: 1.8em;
   padding: 10px;
 
 }
@@ -170,13 +170,13 @@ footer {
 .company {
   text-align: left;
   overflow: hidden;
+  margin-bottom: 1em;
   li {
     @include inline-block;
     margin-right: 15px;
   }
 }
 .grade {
-  line-height: 1.3em;
   position: absolute;
   top: 2px;
   right: 0px;

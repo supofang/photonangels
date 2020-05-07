@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300);
+/* line 5, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,496 +21,645 @@ time, mark, audio, video {
   font-size: 100%;
   vertical-align: baseline; }
 
+/* line 22, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1; }
 
+/* line 24, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none; }
 
+/* line 26, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/* line 28, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle; }
 
+/* line 30, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none; }
+  /* line 103, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
   q:before, q:after, blockquote:before, blockquote:after {
     content: "";
     content: none; }
 
+/* line 32, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none; }
 
+/* line 116, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block; }
 
+/* line 72, icon/*.png */
 .icon-sprite, .icon-12, .icon-awecent, .icon-uzone, .icon-wolf {
   background-image: url('../images/icon-saf74c24927.png');
   background-repeat: no-repeat; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-12 {
   background-position: 0 0;
   height: 42px;
   width: 42px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-awecent {
   background-position: 0 -47px;
   height: 36px;
   width: 57px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-uzone {
   background-position: 0 -88px;
   height: 14px;
   width: 55px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon-wolf {
   background-position: 0 -107px;
   height: 44px;
   width: 29px; }
 
+/* line 72, icon2x/*.png */
 .icon2x-sprite, .icon2x-12, .icon2x-awecent, .icon2x-uzone, .icon2x-wolf {
   background-image: url('../images/icon2x-sdcd3e13828.png');
   background-repeat: no-repeat; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon2x-12 {
   background-position: 0 0;
   height: 84px;
   width: 84px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon2x-awecent {
   background-position: 0 -89px;
   height: 72px;
   width: 116px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon2x-uzone {
   background-position: 0 -166px;
   height: 28px;
   width: 110px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .icon2x-wolf {
   background-position: 0 -199px;
   height: 88px;
   width: 58px; }
 
-@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  /* line 10, ../sass/_compass-retina-sprites.scss */
   .icon-all-retina-sprites, .icon-12, .icon-awecent, .icon-uzone, .icon-wolf {
     background-image: url('../images/icon2x-sdcd3e13828.png');
+    -moz-background-size: 58px auto;
+    -o-background-size: 58px auto;
+    -webkit-background-size: 58px auto;
     background-size: 58px auto; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .icon-12 {
     background-position: 0 0; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .icon-awecent {
     background-position: 0 -44.5px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .icon-uzone {
     background-position: 0 -83px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .icon-wolf {
     background-position: 0 -99.5px; } }
+/* line 344, character/head/*.png */
 .head-sprite, .head-head1, .p1, .head-head10, .p10, .head-head11, .p11, .head-head12, .p12, .head-head13, .p13, .head-head14, .p14, .head-head15, .p15, .head-head16, .p16, .head-head17, .p17, .head-head18, .p18, .head-head19, .p19, .head-head2, .p2, .head-head3, .p3, .head-head4, .p4, .head-head5, .p5, .head-head6, .p6, .head-head7, .p7, .head-head8, .p8, .head-head9, .p9 {
   background-image: url('../images/character/head-sfec58a4bfc.png');
   background-repeat: no-repeat; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head1, .p1 {
   background-position: 0 0;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head1:hover, .p1:hover, .p1.current, .head-head1.head1-hover, .head1-hover.p1 {
     background-position: 0 -1050px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head10, .p10 {
   background-position: 0 -50px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head10:hover, .p10:hover, .p10.current, .head-head10.head10-hover, .head10-hover.p10 {
     background-position: 0 -100px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head11, .p11 {
   background-position: 0 -150px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head11:hover, .p11:hover, .p11.current, .head-head11.head11-hover, .head11-hover.p11 {
     background-position: 0 -200px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head12, .p12 {
   background-position: 0 -250px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head12:hover, .p12:hover, .p12.current, .head-head12.head12-hover, .head12-hover.p12 {
     background-position: 0 -300px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head13, .p13 {
   background-position: 0 -350px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head13:hover, .p13:hover, .p13.current, .head-head13.head13-hover, .head13-hover.p13 {
     background-position: 0 -400px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head14, .p14 {
   background-position: 0 -450px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head14:hover, .p14:hover, .p14.current, .head-head14.head14-hover, .head14-hover.p14 {
     background-position: 0 -500px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head15, .p15 {
   background-position: 0 -550px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head15:hover, .p15:hover, .p15.current, .head-head15.head15-hover, .head15-hover.p15 {
     background-position: 0 -600px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head16, .p16 {
   background-position: 0 -650px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head16:hover, .p16:hover, .p16.current, .head-head16.head16-hover, .head16-hover.p16 {
     background-position: 0 -700px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head17, .p17 {
   background-position: 0 -750px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head17:hover, .p17:hover, .p17.current, .head-head17.head17-hover, .head17-hover.p17 {
     background-position: 0 -800px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head18, .p18 {
   background-position: 0 -850px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head18:hover, .p18:hover, .p18.current, .head-head18.head18-hover, .head18-hover.p18 {
     background-position: 0 -900px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head19, .p19 {
   background-position: 0 -950px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head19:hover, .p19:hover, .p19.current, .head-head19.head19-hover, .head19-hover.p19 {
     background-position: 0 -1000px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head2, .p2 {
   background-position: 0 -1100px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head2:hover, .p2:hover, .p2.current, .head-head2.head2-hover, .head2-hover.p2 {
     background-position: 0 -1150px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head3, .p3 {
   background-position: 0 -1200px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head3:hover, .p3:hover, .p3.current, .head-head3.head3-hover, .head3-hover.p3 {
     background-position: 0 -1250px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head4, .p4 {
   background-position: 0 -1300px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head4:hover, .p4:hover, .p4.current, .head-head4.head4-hover, .head4-hover.p4 {
     background-position: 0 -1350px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head5, .p5 {
   background-position: 0 -1400px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head5:hover, .p5:hover, .p5.current, .head-head5.head5-hover, .head5-hover.p5 {
     background-position: 0 -1450px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head6, .p6 {
   background-position: 0 -1500px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head6:hover, .p6:hover, .p6.current, .head-head6.head6-hover, .head6-hover.p6 {
     background-position: 0 -1550px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head7, .p7 {
   background-position: 0 -1600px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head7:hover, .p7:hover, .p7.current, .head-head7.head7-hover, .head7-hover.p7 {
     background-position: 0 -1650px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head8, .p8 {
   background-position: 0 -1700px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head8:hover, .p8:hover, .p8.current, .head-head8.head8-hover, .head8-hover.p8 {
     background-position: 0 -1750px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head-head9, .p9 {
   background-position: 0 -1800px;
   height: 50px;
   width: 50px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head-head9:hover, .p9:hover, .p9.current, .head-head9.head9-hover, .head9-hover.p9 {
     background-position: 0 -1850px; }
 
+/* line 344, character/head2x/*.png */
 .head2x-sprite, .head2x-head1, .head2x-head10, .head2x-head11, .head2x-head12, .head2x-head13, .head2x-head14, .head2x-head15, .head2x-head16, .head2x-head17, .head2x-head18, .head2x-head19, .head2x-head2, .head2x-head3, .head2x-head4, .head2x-head5, .head2x-head6, .head2x-head7, .head2x-head8, .head2x-head9 {
   background-image: url('../images/character/head2x-s8dfdc1f77e.png');
   background-repeat: no-repeat; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head1 {
   background-position: 0 0;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head1:hover, .head2x-head1.head1-hover {
     background-position: 0 -2100px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head10 {
   background-position: 0 -100px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head10:hover, .head2x-head10.head10-hover {
     background-position: 0 -200px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head11 {
   background-position: 0 -300px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head11:hover, .head2x-head11.head11-hover {
     background-position: 0 -400px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head12 {
   background-position: 0 -500px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head12:hover, .head2x-head12.head12-hover {
     background-position: 0 -600px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head13 {
   background-position: 0 -700px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head13:hover, .head2x-head13.head13-hover {
     background-position: 0 -800px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head14 {
   background-position: 0 -900px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head14:hover, .head2x-head14.head14-hover {
     background-position: 0 -1000px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head15 {
   background-position: 0 -1100px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head15:hover, .head2x-head15.head15-hover {
     background-position: 0 -1200px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head16 {
   background-position: 0 -1300px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head16:hover, .head2x-head16.head16-hover {
     background-position: 0 -1400px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head17 {
   background-position: 0 -1500px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head17:hover, .head2x-head17.head17-hover {
     background-position: 0 -1600px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head18 {
   background-position: 0 -1700px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head18:hover, .head2x-head18.head18-hover {
     background-position: 0 -1800px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head19 {
   background-position: 0 -1900px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head19:hover, .head2x-head19.head19-hover {
     background-position: 0 -2000px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head2 {
   background-position: 0 -2200px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head2:hover, .head2x-head2.head2-hover {
     background-position: 0 -2300px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head3 {
   background-position: 0 -2400px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head3:hover, .head2x-head3.head3-hover {
     background-position: 0 -2500px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head4 {
   background-position: 0 -2600px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head4:hover, .head2x-head4.head4-hover {
     background-position: 0 -2700px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head5 {
   background-position: 0 -2800px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head5:hover, .head2x-head5.head5-hover {
     background-position: 0 -2900px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head6 {
   background-position: 0 -3000px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head6:hover, .head2x-head6.head6-hover {
     background-position: 0 -3100px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head7 {
   background-position: 0 -3200px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head7:hover, .head2x-head7.head7-hover {
     background-position: 0 -3300px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head8 {
   background-position: 0 -3400px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head8:hover, .head2x-head8.head8-hover {
     background-position: 0 -3500px; }
 
+/* line 84, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .head2x-head9 {
   background-position: 0 -3600px;
   height: 100px;
   width: 100px; }
+  /* line 59, C:/Program Files (x86)/Koala/rubygems/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
   .head2x-head9:hover, .head2x-head9.head9-hover {
     background-position: 0 -3700px; }
 
-@media (min--moz-device-pixel-ratio: 1.5), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+@media (min--moz-device-pixel-ratio: 1.5), (-o-min-device-pixel-ratio: 3 / 2), (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5), (min-resolution: 1.5dppx) {
+  /* line 10, ../sass/_compass-retina-sprites.scss */
   .head-all-retina-sprites, .head-head1, .p1, .head-head10, .p10, .head-head10_hover, .head-head11, .p11, .head-head11_hover, .head-head12, .p12, .head-head12_hover, .head-head13, .p13, .head-head13_hover, .head-head14, .p14, .head-head14_hover, .head-head15, .p15, .head-head15_hover, .head-head16, .p16, .head-head16_hover, .head-head17, .p17, .head-head17_hover, .head-head18, .p18, .head-head18_hover, .head-head19, .p19, .head-head19_hover, .head-head1_hover, .head-head2, .p2, .head-head2_hover, .head-head3, .p3, .head-head3_hover, .head-head4, .p4, .head-head4_hover, .head-head5, .p5, .head-head5_hover, .head-head6, .p6, .head-head6_hover, .head-head7, .p7, .head-head7_hover, .head-head8, .p8, .head-head8_hover, .head-head9, .p9, .head-head9_hover {
     background-image: url('../images/character/head2x-s8dfdc1f77e.png');
+    -moz-background-size: 50px auto;
+    -o-background-size: 50px auto;
+    -webkit-background-size: 50px auto;
     background-size: 50px auto; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head1, .p1 {
     background-position: 0 0; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head10, .p10 {
     background-position: 0 -50px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head10_hover {
     background-position: 0 -100px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head11, .p11 {
     background-position: 0 -150px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head11_hover {
     background-position: 0 -200px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head12, .p12 {
     background-position: 0 -250px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head12_hover {
     background-position: 0 -300px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head13, .p13 {
     background-position: 0 -350px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head13_hover {
     background-position: 0 -400px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head14, .p14 {
     background-position: 0 -450px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head14_hover {
     background-position: 0 -500px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head15, .p15 {
     background-position: 0 -550px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head15_hover {
     background-position: 0 -600px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head16, .p16 {
     background-position: 0 -650px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head16_hover {
     background-position: 0 -700px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head17, .p17 {
     background-position: 0 -750px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head17_hover {
     background-position: 0 -800px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head18, .p18 {
     background-position: 0 -850px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head18_hover {
     background-position: 0 -900px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head19, .p19 {
     background-position: 0 -950px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head19_hover {
     background-position: 0 -1000px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head1_hover {
     background-position: 0 -1050px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head2, .p2 {
     background-position: 0 -1100px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head2_hover {
     background-position: 0 -1150px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head3, .p3 {
     background-position: 0 -1200px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head3_hover {
     background-position: 0 -1250px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head4, .p4 {
     background-position: 0 -1300px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head4_hover {
     background-position: 0 -1350px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head5, .p5 {
     background-position: 0 -1400px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head5_hover {
     background-position: 0 -1450px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head6, .p6 {
     background-position: 0 -1500px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head6_hover {
     background-position: 0 -1550px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head7, .p7 {
     background-position: 0 -1600px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head7_hover {
     background-position: 0 -1650px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head8, .p8 {
     background-position: 0 -1700px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head8_hover {
     background-position: 0 -1750px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head9, .p9 {
     background-position: 0 -1800px; }
 
+  /* line 16, ../sass/_compass-retina-sprites.scss */
   .head-head9_hover {
     background-position: 0 -1850px; } }
 /*------------------------------------*\
 基本設定
 \*------------------------------------*/
+/* line 6, ../sass/_basic.scss */
 * {
+  -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+/* line 10, ../sass/_basic.scss */
 html, body {
   font-family: "微軟正黑體", "Microsoft JhengHei", "新細明體", "PMingLiU", AppleGothic, Dotum, Lucida Grande, Verdana Sans-serif;
   font-size: 1em;
@@ -517,40 +667,52 @@ html, body {
   color: #ffffff;
   background-color: #000; }
 
+/* line 20, ../sass/_basic.scss */
 a {
   outline: none;
   behavior: expression(this.onFocus=this.blur());
   text-decoration: none;
   color: #333; }
 
+/* line 29, ../sass/_basic.scss */
 input {
   outline: none;
   border: none; }
 
+/* line 33, ../sass/_basic.scss */
 img {
   display: block; }
 
 /*------------------------------------*\
 全部頁面共用layout
 \*------------------------------------*/
+/* line 6, ../sass/_layout.scss */
 .wrap {
   background: #000 url(../images/bg0.jpg) center top no-repeat;
   position: absolute;
   height: 100%;
   width: 100%;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover; }
+  /* line 12, ../sass/_layout.scss */
   .wrap.b1 {
     background-image: url(../images/bg1.jpg); }
+  /* line 15, ../sass/_layout.scss */
   .wrap.b2 {
     background-image: url(../images/bg2.jpg); }
+  /* line 18, ../sass/_layout.scss */
   .wrap.b3 {
     background-image: url(../images/bg3.jpg); }
+  /* line 20, ../sass/_layout.scss */
   .wrap.b4 {
     background-image: url(../images/bg4.jpg); }
 
 /**
 *header區塊內容
 **/
+/* line 28, ../sass/_layout.scss */
 header {
   width: 100%;
   background-color: #ffffff;
@@ -558,33 +720,43 @@ header {
   position: fixed;
   z-index: 99; }
 
+/* line 37, ../sass/_layout.scss */
 .nav {
   margin: 0 auto;
   max-width: 1280px;
   position: relative; }
 
+/* line 42, ../sass/_layout.scss */
 .navicon {
   cursor: pointer;
   float: right;
   padding: 12px 10px; }
+  /* line 46, ../sass/_layout.scss */
   .navicon img {
     height: 20px;
     width: 20px; }
   @media only screen and (min-width: 768px) {
+    /* line 42, ../sass/_layout.scss */
     .navicon {
       display: none; } }
 
+/* line 54, ../sass/_layout.scss */
 .logo {
   text-align: center; }
   @media only screen and (min-width: 768px) {
+    /* line 54, ../sass/_layout.scss */
     .logo {
       text-align: left; } }
 
+/* line 60, ../sass/_layout.scss */
 .icon-logo {
   text-indent: -119988px;
   overflow: hidden;
   text-align: left;
   text-transform: capitalize;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
   background-size: cover;
   display: inline-block;
   vertical-align: middle;
@@ -596,6 +768,7 @@ header {
   height: 40px;
   width: 130px; }
   @media only screen and (min-width: 768px) {
+    /* line 60, ../sass/_layout.scss */
     .icon-logo {
       background: url("../images/logo.png");
       width: 161px;
@@ -604,33 +777,43 @@ header {
       margin-top: 8px;
       margin-bottom: 8px; } }
 
+/* line 75, ../sass/_layout.scss */
 .topnav {
   display: none; }
+  /* line 77, ../sass/_layout.scss */
   .topnav.show {
     display: block; }
+  /* line 80, ../sass/_layout.scss */
   .topnav li {
     border-top: 1px solid #ffffff;
     line-height: 3em;
     text-align: center;
+    -moz-transition: all, 0.3s;
+    -o-transition: all, 0.3s;
     -webkit-transition: all, 0.3s;
     transition: all, 0.3s; }
+    /* line 85, ../sass/_layout.scss */
     .topnav li:hover {
       background-color: #ffffff; }
+  /* line 89, ../sass/_layout.scss */
   .topnav a {
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline; }
+  /* line 92, ../sass/_layout.scss */
   .topnav img {
     height: 30px;
     width: 30px; }
   @media only screen and (min-width: 768px) {
+    /* line 75, ../sass/_layout.scss */
     .topnav {
       display: block;
       position: absolute;
       right: 10px;
       top: 8px; }
+      /* line 101, ../sass/_layout.scss */
       .topnav li {
         display: inline-block;
         vertical-align: middle;
@@ -640,12 +823,15 @@ header {
         border: none;
         width: 120px;
         text-shadow: 0 0 5px white; }
+        /* line 107, ../sass/_layout.scss */
         .topnav li:hover, .topnav li.on {
           letter-spacing: 5px;
           background-color: transparent;
           text-shadow: 0 0 5px #fff,0 0 15px #fff,0 0 15px #fff; }
+        /* line 112, ../sass/_layout.scss */
         .topnav li:last-child {
           width: auto; }
+      /* line 116, ../sass/_layout.scss */
       .topnav img {
         height: 25px;
         width: 25px; } }
@@ -654,12 +840,14 @@ header {
 *contents區塊內容
 *各單元內容顯示區
 **/
+/* line 128, ../sass/_layout.scss */
 .content {
   position: relative;
   height: 100%;
   width: 100%;
   overflow: hidden;
   *zoom: 1; }
+  /* line 133, ../sass/_layout.scss */
   .content.page {
     height: auto;
     margin: 0 auto;
@@ -667,34 +855,42 @@ header {
     min-height: 100%;
     padding: 80px 10px 50px 10px; }
     @media only screen and (min-width: 768px) {
+      /* line 133, ../sass/_layout.scss */
       .content.page {
         padding-top: 150px; } }
 
 /**
 *footer區塊內容
 **/
+/* line 150, ../sass/_layout.scss */
 footer {
   background-color: #172562;
   color: #999999;
   font-size: .5em;
-  line-height: 1.5em;
+  line-height: 1.8em;
   padding: 10px; }
 
+/* line 158, ../sass/_layout.scss */
 .copyrigth {
   max-width: 1280px;
   margin: 0 auto;
   position: relative; }
 
+/* line 163, ../sass/_layout.scss */
 .text-c {
   display: none;
   margin-bottom: 0; }
   @media only screen and (min-width: 768px) {
+    /* line 163, ../sass/_layout.scss */
     .text-c {
       display: block; } }
 
+/* line 170, ../sass/_layout.scss */
 .company {
   text-align: left;
-  overflow: hidden; }
+  overflow: hidden;
+  margin-bottom: 1em; }
+  /* line 174, ../sass/_layout.scss */
   .company li {
     display: inline-block;
     vertical-align: middle;
@@ -703,19 +899,23 @@ footer {
     *display: inline;
     margin-right: 15px; }
 
+/* line 179, ../sass/_layout.scss */
 .grade {
-  line-height: 1.3em;
   position: absolute;
   top: 2px;
   right: 0px; }
+  /* line 183, ../sass/_layout.scss */
   .grade ul {
     display: none; }
   @media only screen and (min-width: 768px) {
+    /* line 179, ../sass/_layout.scss */
     .grade {
       top: 10px; }
+      /* line 188, ../sass/_layout.scss */
       .grade ul {
         display: block;
         float: left; }
+      /* line 192, ../sass/_layout.scss */
       .grade .icon-12 {
         float: right;
         margin-left: 10px; } }
@@ -724,6 +924,7 @@ footer {
 首頁
 \*------------------------------------*/
 /*遊戲下載按扭*/
+/* line 6, ../sass/_index.scss */
 .download {
   bottom: 0;
   left: 0;
@@ -731,7 +932,10 @@ footer {
   text-align: center;
   width: 100%;
   margin-bottom: 15px; }
+  /* line 13, ../sass/_index.scss */
   .download li {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
     border-radius: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -741,33 +945,40 @@ footer {
     width: 30.33333%;
     background-color: #000;
     text-align: center; }
+  /* line 20, ../sass/_index.scss */
   .download a {
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline; }
+  /* line 23, ../sass/_index.scss */
   .download img {
     width: 100%; }
   @media only screen and (min-width: 480px) {
+    /* line 6, ../sass/_index.scss */
     .download {
       margin-bottom: 0;
       text-align: left;
       background: url("../images/iconbg.png");
       width: 456px;
       height: 77px; }
+      /* line 30, ../sass/_index.scss */
       .download li {
         width: 120px;
         margin-top: 18px;
         margin-left: 8px; } }
 
+/* line 37, ../sass/_index.scss */
 .ad {
   background-color: #ffffff;
   padding: 10px; }
+  /* line 41, ../sass/_index.scss */
   .ad img {
     height: auto;
     max-width: 100%; }
   @media only screen and (min-width: 480px) {
+    /* line 37, ../sass/_index.scss */
     .ad {
       bottom: 0;
       right: 0;
@@ -776,9 +987,11 @@ footer {
       max-width: 250px;
       z-index: 100; } }
   @media only screen and (min-width: 768px) {
+    /* line 37, ../sass/_index.scss */
     .ad {
       max-width: 300px; } }
 
+/* line 58, ../sass/_index.scss */
 .ad-close {
   background-color: #ffffff;
   left: -15px;
@@ -788,6 +1001,7 @@ footer {
   position: absolute;
   padding-left: 5px;
   width: 20px; }
+  /* line 68, ../sass/_index.scss */
   .ad-close:before {
     font-family: 'Alegreya Sans SC', sans-serif;
     font-size: 1em;
@@ -796,6 +1010,7 @@ footer {
 /*------------------------------------*\
 內容頁
 \*------------------------------------*/
+/* line 6, ../sass/_page.scss */
 .tit {
   font-size: 2em;
   font-family: 'Alegreya Sans SC', sans-serif;
@@ -804,19 +1019,22 @@ footer {
   text-shadow: #00fff6 0px 0px 3px, #00fff6 0px 0px 8px, #00fff6 0px 0px 10px; }
 
 /* Gradient transparent - color - transparent */
+/* line 15, ../sass/_page.scss */
 hr.gradient {
+  -moz-box-shadow: rgba(0, 255, 246, 0.5) 0px 1px 3px;
   -webkit-box-shadow: rgba(0, 255, 246, 0.5) 0px 1px 3px;
   box-shadow: rgba(0, 255, 246, 0.5) 0px 1px 3px;
   border: 0;
   height: 1px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(rgba(255, 255, 255, 0.75)), to(rgba(255, 255, 255, 0)));
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0));
   margin-top: 10px;
   margin-bottom: 50px; }
   @media only screen and (min-width: 768px) {
+    /* line 15, ../sass/_page.scss */
     hr.gradient {
       margin-bottom: 80px; } }
 
+/* line 26, ../sass/_page.scss */
 p {
   color: #e6e6e6;
   margin-bottom: 20px;
@@ -825,22 +1043,29 @@ p {
 /**
 *world內容頁
 **/
+/* line 35, ../sass/_page.scss */
 .text {
   color: #e6e6e6;
   max-width: 750px;
   margin: 0 auto;
   text-align: center; }
   @media only screen and (min-width: 480px) {
+    /* line 35, ../sass/_page.scss */
     .text {
       text-align: left; } }
 
+/* line 45, ../sass/_page.scss */
 #typed {
   text-shadow: #000 0px 1px 3px; }
 
+/* line 49, ../sass/_page.scss */
 .typed-cursor {
   opacity: 1;
   font-weight: 100;
   -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
   animation: blink 0.7s infinite; }
 
 @keyframes blink {
@@ -857,19 +1082,44 @@ p {
     opacity: 0; }
   100% {
     opacity: 1; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-ms-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+@-o-keyframes blink {
+  0% {
+    opacity: 1; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 /**
 *movie內容頁
 **/
 /*ul*/
+/* line 86, ../sass/_page.scss */
 .movie-pic {
   max-width: 1024px;
   margin: 0 auto;
   text-align: center; }
+  /* line 90, ../sass/_page.scss */
   .movie-pic li {
     margin-top: 20px;
     text-align: center; }
+    /* line 94, ../sass/_page.scss */
     .movie-pic li:first-child {
       margin-top: 0; }
+  /* line 98, ../sass/_page.scss */
   .movie-pic .tit-movie {
     background-color: #172562;
     color: #ffffff;
@@ -879,6 +1129,7 @@ p {
     text-align: left;
     padding: 2px 5px 2px 20px;
     overflow: hidden; }
+    /* line 108, ../sass/_page.scss */
     .movie-pic .tit-movie:before {
       content: "";
       position: absolute;
@@ -888,6 +1139,7 @@ p {
       border-style: solid;
       border-color: transparent transparent transparent #ffffff;
       z-index: 0; }
+  /* line 121, ../sass/_page.scss */
   .movie-pic a {
     display: inline-block;
     vertical-align: middle;
@@ -896,6 +1148,7 @@ p {
     *display: inline;
     border: 1px solid #666666;
     position: relative; }
+    /* line 125, ../sass/_page.scss */
     .movie-pic a span {
       background-color: rgba(0, 0, 0, 0.7);
       position: absolute;
@@ -906,8 +1159,11 @@ p {
       z-index: 1;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
       opacity: 0;
+      -moz-transition: all, 0.5s;
+      -o-transition: all, 0.5s;
       -webkit-transition: all, 0.5s;
       transition: all, 0.5s; }
+      /* line 135, ../sass/_page.scss */
       .movie-pic a span:before {
         content: "";
         height: 100%;
@@ -917,6 +1173,7 @@ p {
         *zoom: 1;
         *display: inline;
         vertical-align: middle; }
+      /* line 141, ../sass/_page.scss */
       .movie-pic a span .playicon {
         width: 0px;
         height: 0px;
@@ -930,15 +1187,19 @@ p {
         *zoom: 1;
         *display: inline;
         vertical-align: middle; }
+    /* line 152, ../sass/_page.scss */
     .movie-pic a:hover span {
       filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
       opacity: 1; }
+  /* line 156, ../sass/_page.scss */
   .movie-pic img {
     max-width: 100%;
     height: auto; }
   @media only screen and (min-width: 480px) {
+    /* line 86, ../sass/_page.scss */
     .movie-pic {
       text-align: left; }
+      /* line 162, ../sass/_page.scss */
       .movie-pic li {
         display: inline-block;
         vertical-align: middle;
@@ -947,11 +1208,14 @@ p {
         *display: inline;
         width: 48.5%;
         margin-right: 1.5%; }
+        /* line 166, ../sass/_page.scss */
         .movie-pic li:first-child {
           margin-top: 20px; }
+        /* line 169, ../sass/_page.scss */
         .movie-pic li:nth-child(even) {
           margin-right: 0; } }
   @media only screen and (min-width: 768px) {
+    /* line 176, ../sass/_page.scss */
     .movie-pic li {
       display: inline-block;
       vertical-align: middle;
@@ -961,24 +1225,30 @@ p {
       width: 32.13333%;
       margin-right: 1%;
       margin-top: 30px; }
+      /* line 181, ../sass/_page.scss */
       .movie-pic li:first-child {
         margin-top: 30px; }
+      /* line 184, ../sass/_page.scss */
       .movie-pic li:nth-child(even) {
         margin-right: 1%; }
+      /* line 187, ../sass/_page.scss */
       .movie-pic li:nth-child(3n) {
         margin-right: 0; } }
 
 /**
 *introduce內容頁
 **/
+/* line 197, ../sass/_page.scss */
 .tab {
   max-width: 1024px;
   margin: 0 auto; }
 
+/* line 201, ../sass/_page.scss */
 .tabs {
   margin-top: 30px;
   width: 100%;
   text-align: left; }
+  /* line 205, ../sass/_page.scss */
   .tabs a {
     border: 1px solid #666666;
     color: #666666;
@@ -986,41 +1256,54 @@ p {
     margin-right: 5px;
     margin-bottom: 10px;
     padding: 0 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
     border-radius: 5px;
     display: inline-block;
     vertical-align: middle;
     *vertical-align: auto;
     *zoom: 1;
     *display: inline;
+    -moz-transition: all, 0.3s, ease-in-out;
+    -o-transition: all, 0.3s, ease-in-out;
     -webkit-transition: all, 0.3s, ease-in-out;
     transition: all, 0.3s, ease-in-out; }
+    /* line 215, ../sass/_page.scss */
     .tabs a.current, .tabs a:hover {
       color: #172562;
       background-color: #ffffff; }
+    /* line 219, ../sass/_page.scss */
     .tabs a:last-child {
       margin-right: 0; }
 
 /*.js-tabs-item用預設css顯頁第一個tab*/
+/* line 225, ../sass/_page.scss */
 .js-tabs-item {
   display: none; }
+  /* line 227, ../sass/_page.scss */
   .js-tabs-item:first-child {
     display: block; }
 
+/* line 231, ../sass/_page.scss */
 .tab-content {
   margin-top: 30px; }
 
+/* line 235, ../sass/_page.scss */
 .tabs-item h3 {
   border-bottom: 1px solid #666666;
   font-size: 1.2em;
   margin-bottom: 10px;
   text-shadow: #000 0px 1px 3px; }
+/* line 241, ../sass/_page.scss */
 .tabs-item > img {
   max-width: 100%;
   height: auto;
   margin-top: 10px; }
+  /* line 245, ../sass/_page.scss */
   .tabs-item > img:first-child {
     margin-top: 0; }
 @media only screen and (min-width: 480px) {
+  /* line 250, ../sass/_page.scss */
   .tabs-item > img.w2 {
     max-width: 49%;
     margin-right: 1%;
@@ -1029,22 +1312,27 @@ p {
     *vertical-align: auto;
     *zoom: 1;
     *display: inline; }
+    /* line 253, ../sass/_page.scss */
     .tabs-item > img.w2:last-child {
       margin-right: 0; } }
 
 /**
 *character內容頁
 **/
+/* line 264, ../sass/_page.scss */
 .character__text {
   width: 100%; }
   @media only screen and (min-width: 768px) {
+    /* line 264, ../sass/_page.scss */
     .character__text {
       width: 45%;
       float: left; } }
 
+/* line 271, ../sass/_page.scss */
 .head-pic {
   margin-bottom: 10px;
   text-align: left; }
+  /* line 274, ../sass/_page.scss */
   .head-pic a {
     border: 1px solid #666666;
     margin-bottom: 5px;
@@ -1053,35 +1341,44 @@ p {
     *vertical-align: auto;
     *zoom: 1;
     *display: inline; }
+    /* line 278, ../sass/_page.scss */
     .head-pic a.current {
       border: 1px solid #008aff; }
   @media only screen and (min-width: 480px) {
+    /* line 271, ../sass/_page.scss */
     .head-pic {
       text-align: center; } }
   @media only screen and (min-width: 768px) {
+    /* line 271, ../sass/_page.scss */
     .head-pic {
       text-align: left; } }
 
+/* line 298, ../sass/_page.scss */
 .role-text h3 {
   font-size: 2em;
   margin-bottom: 1em; }
 
+/* line 303, ../sass/_page.scss */
 .character__pic {
   width: 100%; }
   @media only screen and (min-width: 768px) {
+    /* line 303, ../sass/_page.scss */
     .character__pic {
       width: 55%;
       float: right;
       overflow: hidden; } }
 
+/* line 311, ../sass/_page.scss */
 .role-pic {
   margin-bottom: 10px; }
+  /* line 313, ../sass/_page.scss */
   .role-pic img {
     margin: 0 auto;
     max-width: 100%;
     height: auto; }
 
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+/* line 2, ../sass/_jquery.fancybox.scss */
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
@@ -1098,34 +1395,43 @@ p {
   outline: none;
   vertical-align: top; }
 
+/* line 20, ../sass/_jquery.fancybox.scss */
 .fancybox-wrap {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 8020; }
 
+/* line 27, ../sass/_jquery.fancybox.scss */
 .fancybox-skin {
   position: relative;
   color: #444;
   text-shadow: none;
   border: 1px solid #172562; }
 
+/* line 35, ../sass/_jquery.fancybox.scss */
 .fancybox-opened {
   z-index: 8030; }
 
+/* line 39, ../sass/_jquery.fancybox.scss */
 .fancybox-opened .fancybox-skin {
   -webkit-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5); }
 
+/* line 45, ../sass/_jquery.fancybox.scss */
 .fancybox-outer, .fancybox-inner {
   position: relative; }
 
+/* line 49, ../sass/_jquery.fancybox.scss */
 .fancybox-inner {
   overflow: hidden; }
 
+/* line 53, ../sass/_jquery.fancybox.scss */
 .fancybox-type-iframe .fancybox-inner {
   -webkit-overflow-scrolling: touch; }
 
+/* line 57, ../sass/_jquery.fancybox.scss */
 .fancybox-error {
   color: #444;
   font: 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1133,18 +1439,22 @@ p {
   padding: 15px;
   white-space: nowrap; }
 
+/* line 65, ../sass/_jquery.fancybox.scss */
 .fancybox-image, .fancybox-iframe {
   display: block;
   width: 100%;
   height: 100%; }
 
+/* line 71, ../sass/_jquery.fancybox.scss */
 .fancybox-image {
   max-width: 100%;
   max-height: 100%; }
 
+/* line 76, ../sass/_jquery.fancybox.scss */
 #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
   background-image: url("../images/fancybox/fancybox_sprite.png"); }
 
+/* line 80, ../sass/_jquery.fancybox.scss */
 #fancybox-loading {
   position: fixed;
   top: 50%;
@@ -1156,11 +1466,13 @@ p {
   cursor: pointer;
   z-index: 8060; }
 
+/* line 92, ../sass/_jquery.fancybox.scss */
 #fancybox-loading div {
   width: 44px;
   height: 44px;
   background: url("../images/fancybox/fancybox_loading.gif") center center no-repeat; }
 
+/* line 98, ../sass/_jquery.fancybox.scss */
 .fancybox-close {
   position: absolute;
   top: -18px;
@@ -1170,6 +1482,7 @@ p {
   cursor: pointer;
   z-index: 8040; }
 
+/* line 108, ../sass/_jquery.fancybox.scss */
 .fancybox-nav {
   position: absolute;
   top: 0;
@@ -1182,12 +1495,15 @@ p {
   -webkit-tap-highlight-color: transparent;
   z-index: 8040; }
 
+/* line 120, ../sass/_jquery.fancybox.scss */
 .fancybox-prev {
   left: 0; }
 
+/* line 124, ../sass/_jquery.fancybox.scss */
 .fancybox-next {
   right: 0; }
 
+/* line 128, ../sass/_jquery.fancybox.scss */
 .fancybox-nav span {
   position: absolute;
   top: 50%;
@@ -1198,17 +1514,21 @@ p {
   z-index: 8040;
   visibility: hidden; }
 
+/* line 139, ../sass/_jquery.fancybox.scss */
 .fancybox-prev span {
   left: 10px;
   background-position: 0 -36px; }
 
+/* line 144, ../sass/_jquery.fancybox.scss */
 .fancybox-next span {
   right: 10px;
   background-position: 0 -72px; }
 
+/* line 149, ../sass/_jquery.fancybox.scss */
 .fancybox-nav:hover span {
   visibility: visible; }
 
+/* line 153, ../sass/_jquery.fancybox.scss */
 .fancybox-tmp {
   position: absolute;
   top: -99999px;
@@ -1219,16 +1539,20 @@ p {
   overflow: visible !important; }
 
 /* Overlay helper */
+/* line 165, ../sass/_jquery.fancybox.scss */
 .fancybox-lock {
   overflow: hidden !important;
   width: auto; }
 
+/* line 170, ../sass/_jquery.fancybox.scss */
 .fancybox-lock body {
   overflow: hidden !important; }
 
+/* line 174, ../sass/_jquery.fancybox.scss */
 .fancybox-lock-test {
   overflow-y: hidden !important; }
 
+/* line 178, ../sass/_jquery.fancybox.scss */
 .fancybox-overlay {
   position: absolute;
   top: 0;
@@ -1238,16 +1562,19 @@ p {
   z-index: 8010;
   background: url(../images/fancybox/fancybox_overlay.png) 0 0 repeat; }
 
+/* line 188, ../sass/_jquery.fancybox.scss */
 .fancybox-overlay-fixed {
   position: fixed;
   bottom: 0;
   right: 0; }
 
+/* line 194, ../sass/_jquery.fancybox.scss */
 .fancybox-lock .fancybox-overlay {
   overflow: auto;
   overflow-y: scroll; }
 
 /* Title helper */
+/* line 201, ../sass/_jquery.fancybox.scss */
 .fancybox-title {
   visibility: hidden;
   font: normal 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -1255,9 +1582,11 @@ p {
   text-shadow: none;
   z-index: 8050; }
 
+/* line 209, ../sass/_jquery.fancybox.scss */
 .fancybox-opened .fancybox-title {
   visibility: visible; }
 
+/* line 213, ../sass/_jquery.fancybox.scss */
 .fancybox-title-float-wrap {
   position: absolute;
   bottom: 0;
@@ -1266,6 +1595,7 @@ p {
   z-index: 8050;
   text-align: center; }
 
+/* line 222, ../sass/_jquery.fancybox.scss */
 .fancybox-title-float-wrap .child {
   display: inline-block;
   margin-right: -100%;
@@ -1273,6 +1603,8 @@ p {
   background: transparent;
   /* Fallback for web browsers that doesn't support RGBa */
   background: rgba(0, 0, 0, 0.8);
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
   border-radius: 15px;
   text-shadow: 0 1px 2px #222;
   color: #FFF;
@@ -1280,14 +1612,17 @@ p {
   line-height: 24px;
   white-space: nowrap; }
 
+/* line 238, ../sass/_jquery.fancybox.scss */
 .fancybox-title-outside-wrap {
   position: relative;
   margin-top: 10px;
   color: #fff; }
 
+/* line 244, ../sass/_jquery.fancybox.scss */
 .fancybox-title-inside-wrap {
   padding-top: 10px; }
 
+/* line 248, ../sass/_jquery.fancybox.scss */
 .fancybox-title-over-wrap {
   position: absolute;
   bottom: 0;
@@ -1299,11 +1634,13 @@ p {
 
 /*Retina graphics!*/
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  /* line 263, ../sass/_jquery.fancybox.scss */
   #fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
     background-image: url("../images/fancybox/fancybox_sprite@2x.png");
     background-size: 44px 152px;
     /*The size of the normal image, half the size of the hi-res image*/ }
 
+  /* line 268, ../sass/_jquery.fancybox.scss */
   #fancybox-loading div {
     background-image: url("../images/fancybox/fancybox_loading@2x.gif");
     background-size: 24px 24px;
